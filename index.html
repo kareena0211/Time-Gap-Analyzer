@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="overlay">
+            <div class="title">We are Coming Soon</div>
+            <div id="current-date-holder">
+                <h2>Current date </h2>
+                <p id="currentDateShow"></p>
+            </div>
+
+
+            <div id="select-date">
+                <h2> Select Your Date</h2>
+                <input type="datetime-local" id="select-end-date" />
+
+            </div>
+
+
+            <button type="submit" id="btn">Check How Many Days Left</button>
+
+            <div class="title" id="end-date"></div>
+
+            <div class="col">
+                <div>
+                    <input type="text" class="dateInput" readonly><br>
+                    <label for="">Days</label>
+                </div>
+
+                <div>
+                    <input type="text" class="dateInput" readonly><br>
+                    <label for="">Hours</label>
+                </div>
+
+                <div>
+                    <input type="text" class="dateInput" readonly><br>
+                    <label for="">Minutes</label>
+                </div>
+
+                <div>
+                    <input type="text" class="dateInput" readonly><br>
+                    <label for="">Seconds</label>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
